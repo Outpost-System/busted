@@ -19,3 +19,5 @@ RUN cd /tmp && \
     rm -rf /tmp/luarocks
 
 RUN luarocks install busted
+RUN luarocks install luacheck
+RUN luarocks install luacov
