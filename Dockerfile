@@ -1,4 +1,5 @@
 FROM alpine
+LABEL org.opencontainers.image.source https://github.com/Outpost-System/busted
 
 ENV LUA_VERSION 5.1
 
